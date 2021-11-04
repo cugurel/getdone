@@ -12,6 +12,7 @@ class ItemCard extends StatelessWidget {
       elevation: 4,
       shadowColor: Theme.of(context).primaryColor,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+
       child: ListTile(
         title: Text(title,style: TextStyle(color: Colors.black),),
         trailing: Checkbox(
