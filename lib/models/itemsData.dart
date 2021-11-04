@@ -7,6 +7,7 @@ class ItemsData with ChangeNotifier{
     Item(title: 'Peynir Al'),
     Item(title: 'Çöpü At'),
     Item(title: 'Faturayı Öde'),
-    Item(title: 'Çamaşırı Yıka')
+    Item(title: 'Çamaşırı Yıka'),
+    Item(title: 'Maçı izle')
   ];
 }
